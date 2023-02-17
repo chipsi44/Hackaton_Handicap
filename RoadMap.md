@@ -4,20 +4,20 @@ Crée une application qui permetrais au personne handicapée de pouvoir trouvé 
 
 Coté concurrent : 
 
-Lorem ipsum
+Cyril peux s'en occupée
 
 Fonctionnalitée de l'application : 
 
-Lorem ipsum
+Les filles peuvent s'occupée de mettre en place les fonctionnalitée qui serais interessante d'avoir sur notre application
 
 Côté technique : 
 
-Lorem ipsum
+Andy tes trop fort les bases de donnée tout ca tout ca
 
 Coté difficultée d'utiliser notre app pour des personnes handicapée : 
 
-Lorem ipsum
+Dispo sur multi appareil ? Difficile a lire pour les aveugles ? 
 
 Coté présentation du projet : 
 
-Lorem ipsumm
+Cyril je m'en occupe
