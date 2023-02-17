@@ -20,4 +20,4 @@ Lorem ipsum
 
 Coté présentation du projet : 
 
-Lorem ipsum
+Lorem ipsumm
