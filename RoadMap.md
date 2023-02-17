@@ -1,22 +1,22 @@
 Idée principal : 
 
-Crée une application qui permetrais au personne handicapée de pouvoir trouvé des activitée a faire autour d'elles qui leurs seraient accessible en fonction de leurs handicap. 
+Crée une application qui permettrait aux personnes handicapées de pouvoir trouver des activités à faire autour d'elles qui leur seraient accessibles en fonction de leur(s) handicap(s). 
 
 Coté concurrent : 
 
-Cyril peux s'en occupée
+Cyril peux s'en occuper
 
-Fonctionnalitée de l'application : 
+Fonctionnalités de l'application : 
 
-Les filles peuvent s'occupée de mettre en place les fonctionnalitée qui serais interessante d'avoir sur notre application
+Anh So et Lauranne peuvent s'occuper de penser aux fonctionnalités qu'il serait intéressant d'avoir sur notre application
 
 Côté technique : 
 
-Andy tes trop fort les bases de donnée tout ca tout ca
+Andy t'es trop fort les bases de données tout ça tout ça
 
-Coté difficultée d'utiliser notre app pour des personnes handicapée : 
+Côté difficultés d'utiliser notre app pour des personnes handicapées : 
 
-Dispo sur multi appareil ? Difficile a lire pour les aveugles ? 
+Dispo sur multi appareil ? Difficile à lire pour les aveugles ? 
 
 Coté présentation du projet : 
 
