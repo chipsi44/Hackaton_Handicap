@@ -1,6 +1,8 @@
-Idée principal : 
+Idée principale : 
 
-Crée une application qui permettrait aux personnes handicapées de pouvoir trouver des activités à faire autour d'elles qui leur seraient accessibles en fonction de leur(s) handicap(s). 
+Créer une application qui permettrait à chaque personne de trouver des activités et des lieux disponibles autour d'eux. Chacune des ces personnes qu'elles soient en situation de handicap ou non pourras renseigner si le lieux est accesible au personne handicapée. Ainsi une personne valide pourras par exemple spécifié que le club de couture de son quartier n'est pas spécialement accessible au manchot. 
+
+Pourquoi rendre l'application disponnible au personne valide ? Afin que l'app aient rapidement une communautée qui serais active et qui donnerait des informations sur tout les lieux. Cette idée est sortie du fais qu'une app du nom de acessnow existe déjà mais est tres orienté handicap. Alors que si nous prenon l'exemple de google map au des personne valide peuvent m'ensionner si une route est accessible au PMR ou non, nous voyons que les informations receuillie sont bcp plus grande. 
 
 Coté concurrent : 
 
