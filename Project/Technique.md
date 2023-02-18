@@ -17,7 +17,9 @@ structure de données (clé-valeur):
 
 {full_adress : {
 
-Global_handi_score : int
+type : str
+
+global_handi_score : int
 
 handi_reviews : {
 

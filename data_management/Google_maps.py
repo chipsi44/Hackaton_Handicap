@@ -2,7 +2,7 @@
 import googlemaps
 
 
-def get_g_infos(address : str) -> dict{str : str}:
+def get_g_infos(address : str) -> dict[str : str]:
 
     """
     Get google maps informations from an address from a place
