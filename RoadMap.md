@@ -8,7 +8,7 @@ But officieux:
 - Collecter un maximum d'informations sur l'accessibilité en Belgique dans les lieux publics comme privés.
 - Cibler les lieux absolument inaccessible pour pouvoir les pointer du doigt et demander du changement. => mettre en open data
 
-onctionnalités de l'application : 
+Fonctionnalités de l'application : 
 
 Anh So et Lauranne peuvent s'occuper de penser aux fonctionnalités qu'il serait intéressant d'avoir sur notre application
 
