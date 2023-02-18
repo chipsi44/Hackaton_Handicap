@@ -6,4 +6,4 @@ But officiel:
 
 But officieux:
 - Collecter un maximum d'informations sur l'accessibilité en Belgique dans les lieux publics comme privés.
-- Cibler les lieux absolument inaccessible pour pouvoir les pointer du doigt et demander du changement.
+- Cibler les lieux absolument inaccessible pour pouvoir les pointer du doigt et demander du changement. => mettre en open data
