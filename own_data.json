@@ -1,0 +1,80 @@
+{
+    "0 nowhere 0000 void void": {
+        "Type": "Drinking",
+        "subtype": "Bar",
+        "Global_handi_score": 0,
+        "handi_reviews": {
+            "0": 0,
+            "1": 0
+        },
+        "handicap": {
+            "0": false,
+            "1": false
+        }
+    },
+    "1 Noway 0000 void void": {
+        "Type": "entertainment",
+        "subtype": "Cinema",
+        "Global_handi_score": 0,
+        "handi_reviews": {
+            "0": 0,
+            "1": 0
+        },
+        "handicap": {
+            "0": false,
+            "1": false
+        }
+    },
+    "2 Norvege 0000 void void": {
+        "Type": "Sport",
+        "subtype": "Kart",
+        "Global_handi_score": 0,
+        "handi_reviews": {
+            "0": 0,
+            "1": 0
+        },
+        "handicap": {
+            "0": false,
+            "1": false
+        }
+    },
+    "3 Narnia 0000 void void": {
+        "Type": "Sport",
+        "subtype": "Pool",
+        "Global_handi_score": 0,
+        "handi_reviews": {
+            "0": 0,
+            "1": 0
+        },
+        "handicap": {
+            "0": false,
+            "1": false
+        }
+    },
+    "3 NineThreeForth 0000 void void": {
+        "Type": "Sport",
+        "subtype": "Soccer",
+        "Global_handi_score": 0,
+        "handi_reviews": {
+            "0": 0,
+            "1": 0
+        },
+        "handicap": {
+            "0": false,
+            "1": false
+        }
+    },
+    "4 AlcoholicComa 0000 void vois": {
+        "Type": "Drinking",
+        "subtype": "Bar",
+        "Global_handi_score": 0,
+        "handi_reviews": {
+            "0": 0,
+            "1": 0
+        },
+        "handicap": {
+            "0": false,
+            "1": false
+        }
+    }
+}
