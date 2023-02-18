@@ -1,4 +1,5 @@
 import text2emotion as te
+import pickle
 
 class fake_comment_detector(te):
     def __init__(self):
@@ -6,9 +7,8 @@ class fake_comment_detector(te):
     
     def detect_fake(text : str) -> bool:
         result = te.get_emotion(text)
-        #Décider de valeur pour lesquelle le test est faux
+        if result["Angry"] > 
         return False
     
-    
-text = "Ce bar est vraiment nul. Hâte qu'il ferme leur porte après avoir perdu toute leur clientèle"
-print(fake_comment_detector.detect_fake(text))
+model = fake_comment_detector()
+pickle.dump(model, open('fake_comment_detector.pkl', 'wb'))
