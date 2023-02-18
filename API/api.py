@@ -3,10 +3,14 @@ from flask_restful import Api, Resource, reqparse, abort
 from flask_sqlalchemy import SQLAlchemy
 from forms import property_entry_form
 from werkzeug.datastructures import MultiDict
+import pickle
 
 app = Flask(__name__, template_folder='templates', static_folder='templates/assets')
 app.config['SECRET_KEY'] = 'ValeureuxLiegeois'
 api = Api(app)
+
+with open("fake_comment_detector.pkl", 'rb') as file:
+    fake_detector = pickle.load(file)
 
 @app.route('/home', methods=['GET', 'POST'])
 def home():
