@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>All Out</title>
+        <meta charset="utf-8" />
+        <link rel="icon" href="assets/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <link rel="apple-touch-icon" href="assets/logo192.png" />
+    </head>
+    <body>
+        <header>
+            <nav class="mt-5 mb-10 bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
+                <div class="container flex flex-wrap items-center justify-between mx-auto">
+                    <a href="/" class="flex items-center">
+                        <img src="logo.png" class="h-10 mr-3 sm:h-20" alt="Logo" />
+                    </a>
+                    <div class="w-full md:block md:w-auto text-xs" id="navbar-default">
+                        <div class="flex items-center space-x-4">
+                            <div class="relative w-10 h-10 overflow-hidden bg-gray-100 rounded-full">
+                                <svg
+                                    class="absolute w-12 h-12 text-gray-400 -left-1"
+                                    fill="currentColor"
+                                    viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                                        clip-rule="evenodd">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="font-medium">
+                                <div>{{user.name}}</div>
+                                <div class="text-gray-500">
+                                    Lvl {{user.level}} <br />
+                                    XP {{user.xp}} /1000
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div>
+            <form method="post" action="">
+                <div class="flex">
+                    <span class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border border-r-0 border-gray-300 rounded-l-md dark:bg-gray-600 dark:text-gray-400">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                    <strong>{{form.activity.label}}</strong>{{form.activity()}} <br>
+                </div>
+                <strong>{{form.notation.label}}</strong>{{form.notation()}} <br>
+                {{form.submit()}}
+            </form>
+        </div>
+        <div>
+            {{result}}
+        </div>
+    </body>
+</html>

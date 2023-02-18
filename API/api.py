@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect, request
 from flask_restful import Api, Resource, reqparse, abort
 from flask_sqlalchemy import SQLAlchemy
-from forms import property_entry_form
+from forms import research_entry_form
 from werkzeug.datastructures import MultiDict
 import pickle
 
@@ -23,11 +23,11 @@ dummy_user = User("Josh",
 
 @app.route('/home', methods=['GET', 'POST'])
 def home():
-    form = property_entry_form()
+    form = research_entry_form()
     if form.is_submitted():
         data = request.form
         #result = place_research_result(data)
-        result = {}
+        result = ""
         return render_template('index.html', form=form, result=result, user=dummy_user)
     else:
         #result = place_research_result(None)
