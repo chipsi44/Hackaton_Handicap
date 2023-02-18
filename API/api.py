@@ -5,12 +5,21 @@ from forms import property_entry_form
 from werkzeug.datastructures import MultiDict
 import pickle
 
+from User import User
+
 app = Flask(__name__, template_folder='templates', static_folder='templates/assets')
 app.config['SECRET_KEY'] = 'ValeureuxLiegeois'
 api = Api(app)
 
 with open("fake_comment_detector.pkl", 'rb') as file:
     fake_detector = pickle.load(file)
+    
+dummy_user = User("Josh",
+                  84569,
+                  wheelchair=True,
+                  hard_hearing=True,
+                  visually_impaired=False,
+                  service_dog=False)
 
 @app.route('/home', methods=['GET', 'POST'])
 def home():
