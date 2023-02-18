@@ -10,9 +10,8 @@ from User import User
 app = Flask(__name__, template_folder='templates', static_folder='templates/assets')
 app.config['SECRET_KEY'] = 'ValeureuxLiegeois'
 api = Api(app)
-
-with open("fake_comment_detector.pkl", 'rb') as file:
-    fake_detector = pickle.load(file)
+    
+#fake_detector = pickle.load(open("API/fake_comment_detector.pkl", "rb"))
     
 dummy_user = User("Josh",
                   84569,
