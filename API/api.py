@@ -25,9 +25,14 @@ dummy_user = User("Josh",
 def home():
     form = property_entry_form()
     if form.is_submitted():
-        result = request.form
-        return render_template('index.html', form=form, result=result)
-    return render_template('index.html', form=form)
+        data = request.form
+        #result = place_research_result(data)
+        result = {}
+        return render_template('index.html', form=form, result=result, user=dummy_user)
+    else:
+        #result = place_research_result(None)
+        result = {}
+        return render_template('index.html', form=form, result=result, user=dummy_user)
 
 property_put_args = reqparse.RequestParser()
 property_put_args.add_argument("activity", type= str, required=False)
