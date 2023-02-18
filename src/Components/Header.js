@@ -3,14 +3,14 @@ import "../App.css";
 function Header() {
   return (
     <header>
-      <nav class="mt-5 mb-10 bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+      <nav class="mt-5 mb-10 bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
           <a href="/" class="flex items-center">
             <img src="logo.png" class="h-10 mr-3 sm:h-20" alt="Logo" />
           </a>
           <div class="w-full md:block md:w-auto text-xs" id="navbar-default">
             <div class="flex items-center space-x-4">
-              <div class="relative w-10 h-10 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
+              <div class="relative w-10 h-10 overflow-hidden bg-gray-100 rounded-full">
                 <svg
                   class="absolute w-12 h-12 text-gray-400 -left-1"
                   fill="currentColor"
@@ -24,9 +24,9 @@ function Header() {
                   ></path>
                 </svg>
               </div>
-              <div class="font-medium dark:text-white">
+              <div class="font-medium">
                 <div>Username</div>
-                <div class="text-gray-500 dark:text-gray-400">
+                <div class="text-gray-500">
                   Lvl ? <br />
                   XP ?/1000
                 </div>
