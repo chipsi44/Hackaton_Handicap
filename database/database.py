@@ -53,11 +53,24 @@ class Amenagement(Base):
     id = Column(Integer, primary_key=True)
     id_address = Column(ForeignKey)
     flat = Column(Boolean)
+    elevator = Column(Boolean)
     
     def __init__(self, id_address : int,
-                 flat : bool):
+                 flat : bool,
+                 elevator : bool):
         self.id_address = id_address
         self.flat = flat
+        self.elevator = elevator
+
+class Activity(Base):
+    __tablename__ = "Activity"
+    
+    id = Column(Integer, primary_key=True)
+    id_address = Column(ForeignKey)
+    name = Column(String)
+    duration_min = Column(Integer)
+    
+        
         
     
 engine = create_engine('sqlite:///api_db.db')
