@@ -3,6 +3,7 @@ from flask_restful import Api, Resource, reqparse, abort
 from flask_sqlalchemy import SQLAlchemy
 from forms import research_entry_form
 from werkzeug.datastructures import MultiDict
+from research import place_research_result
 import pickle
 
 from User import User
@@ -26,7 +27,7 @@ def home():
     result = ""
     if form.is_submitted():
         data = request.form
-        #result = place_research_result(data)
+        result = place_research_result({data['activity'], data['notation']})
         result = f"this is a text message : {data['activity']}"
         return render_template('index.html', form=form, result=result, user=dummy_user)
     return render_template('index.html', form=form, result=result, user=dummy_user)
