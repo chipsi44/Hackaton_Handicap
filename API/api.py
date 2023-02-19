@@ -1,14 +1,12 @@
-from flask import Flask, render_template, redirect, request
-from flask_restful import Api, Resource, reqparse, abort
-from flask_sqlalchemy import SQLAlchemy
+from flask import Flask, render_template, request
+from flask_restful import Api, Resource, reqparse
 from forms import research_entry_form
-from werkzeug.datastructures import MultiDict
 from research import place_research_result
 import pickle
 
 from User import User
 
-app = Flask(__name__, template_folder='templates', static_folder='templates/assets')
+app = Flask(__name__, template_folder='../API/src/', static_folder='../API/src/')
 app.config['SECRET_KEY'] = 'ValeureuxLiegeois'
 api = Api(app)
     
