@@ -6,7 +6,7 @@ import pickle
 
 from User import User
 
-app = Flask(__name__, template_folder='../API/src/', static_folder='../API/src/')
+app = Flask(__name__, template_folder='templates', static_folder='templates/assets')
 app.config['SECRET_KEY'] = 'ValeureuxLiegeois'
 api = Api(app)
     

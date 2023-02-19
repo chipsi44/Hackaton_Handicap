@@ -121,3 +121,4 @@ def result_html_build(formatted_addres : str , value : dict) -> str:
         </div>
       </a>
     </section></br>"""
+    return result
