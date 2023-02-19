@@ -9,8 +9,7 @@ def place_research_result(data : dict) -> str:
     
     for k, v in dummies_data.items():
         if v['Type'] == data['activity'] or v['subtype'] == data['activity']:
-            result += k
-            result += " "
+            result += f"{k} {v['Type']} {v['subtype']} {v['Global_handi_score']} </br>"
             #result += result_html_build(k, v)
     
     return f"this is a test response that will be replaced with html objects : {result}"
