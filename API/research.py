@@ -10,9 +10,7 @@ def place_research_result(data : dict) -> str:
     for k, v in dummies_data.items():
         if v['Type'] == data['activity'] or v['subtype'] == data['activity']:
             result += result_html_build(k, v)
-            
-    
-    return f"this is a test response that will be replaced with html objects : {result}"
+    return result
 
 def result_html_build(formatted_addres : str , value : dict) -> str:
     result = f"""<section className="mb-5">
