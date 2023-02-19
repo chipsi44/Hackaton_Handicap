@@ -23,15 +23,13 @@ dummy_user = User("Josh",
 @app.route('/home', methods=['GET', 'POST'])
 def home():
     form = research_entry_form()
+    result = ""
     if form.is_submitted():
         data = request.form
         #result = place_research_result(data)
-        result = ""
+        result = f"this is a text message : {data['activity']}"
         return render_template('index.html', form=form, result=result, user=dummy_user)
-    else:
-        #result = place_research_result(None)
-        result = {}
-        return render_template('index.html', form=form, result=result, user=dummy_user)
+    return render_template('index.html', form=form, result=result, user=dummy_user)
 
 property_put_args = reqparse.RequestParser()
 property_put_args.add_argument("activity", type= str, required=False)
