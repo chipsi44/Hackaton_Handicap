@@ -27,8 +27,7 @@ def home():
     result = ""
     if form.is_submitted():
         data = request.form
-        result = place_research_result({data['activity'], data['notation']})
-        result = f"this is a text message : {data['activity']}"
+        result = place_research_result(data)
         return render_template('index.html', form=form, result=result, user=dummy_user)
     return render_template('index.html', form=form, result=result, user=dummy_user)
 
