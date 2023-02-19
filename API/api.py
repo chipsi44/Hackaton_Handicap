@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, Markup
 from flask_restful import Api, Resource, reqparse
 from forms import research_entry_form
 from research import place_research_result
@@ -26,8 +26,8 @@ def home():
     if form.is_submitted():
         data = request.form
         result = place_research_result(data)
-        return render_template('index.html', form=form, result=result, user=dummy_user)
-    return render_template('index.html', form=form, result=result, user=dummy_user)
+        return render_template('index.html', form=form, result=Markup(result), user=dummy_user)
+    return render_template('index.html', form=form, result=Markup(result), user=dummy_user)
 
 property_put_args = reqparse.RequestParser()
 property_put_args.add_argument("activity", type= str, required=False)
